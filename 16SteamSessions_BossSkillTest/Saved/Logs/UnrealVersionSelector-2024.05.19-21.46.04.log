@@ -1,0 +1,20 @@
+Log started at 05/19/2024 21:46:04 (2024-05-19T12:46:04Z)
+Adding event matcher: CompileEventMatcher
+Adding event matcher: LinkEventMatcher
+Adding event matcher: MicrosoftEventMatcher
+Adding event matcher: XoreaxEventMatcher
+No config file at C:\Users\슈뢰딩거\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  C:\Users\슈뢰딩거\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Log file: E:\UR_ServerTest\ProjectMiniWOW\12SteamSessions_\Saved\Logs\UnrealVersionSelector-2024.05.19-21.46.04.log
+
+A conflicting instance of UnrealBuildTool is already running.
+BuildException: A conflicting instance of UnrealBuildTool is already running.
+   at UnrealBuildTool.SingleInstanceMutex..ctor(String MutexName, Boolean bWaitMutex) in D:\build\++UE5\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\SingleInstanceMutex.cs:line 51
+   at UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) in D:\build\++UE5\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:line 619
+WriteFileIfChanged() wrote 0 changed files of 0 requested writes.
+Timeline:
+
+[ 0.000]
+[ 0.000](+0.248) <unknown>
+[ 0.248]
