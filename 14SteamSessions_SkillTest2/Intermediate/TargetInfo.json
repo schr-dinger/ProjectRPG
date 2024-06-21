@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SteamSessions",
+			"Path": "D:\\UR_ServerTest\\ProjectMiniWOW\\14SteamSessions_SkillTest2\\Source\\SteamSessions.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SteamSessionsEditor",
+			"Path": "D:\\UR_ServerTest\\ProjectMiniWOW\\14SteamSessions_SkillTest2\\Source\\SteamSessionsEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\ur_servertest\\projectminiwow\\12steamsessions_aggrotest2\\intermediate\\build\\win64\\unrealeditor\\inc\\steamsessions\\uht\\c_topdowngamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ur_servertest\\projectminiwow\\12steamsessions_aggrotest2\\intermediate\\build\\win64\\steamsessionseditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\ur_servertest\\projectminiwow\\12steamsessions_aggrotest2\\intermediate\\build\\win64\\unrealeditor\\development\\steamsessions\\definitions.steamsessions.h",
+            "d:\\ur_servertest\\projectminiwow\\12steamsessions_aggrotest2\\source\\steamsessions\\c_topdowngamemode.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemode.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemode.generated.h",
+            "d:\\ur_servertest\\projectminiwow\\12steamsessions_aggrotest2\\intermediate\\build\\win64\\unrealeditor\\inc\\steamsessions\\uht\\c_topdowngamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

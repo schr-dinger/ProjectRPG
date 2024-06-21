@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\ur_servertest\\projectminiwow\\12steamsessions_aggrotest2\\intermediate\\build\\win64\\unrealeditor\\inc\\steamsessions\\uht\\c_aibehaviorcomponent.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ur_servertest\\projectminiwow\\12steamsessions_aggrotest2\\intermediate\\build\\win64\\steamsessionseditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\ur_servertest\\projectminiwow\\12steamsessions_aggrotest2\\intermediate\\build\\win64\\unrealeditor\\development\\steamsessions\\definitions.steamsessions.h",
+            "d:\\ur_servertest\\projectminiwow\\12steamsessions_aggrotest2\\source\\steamsessions\\c_aibehaviorcomponent.h",
+            "d:\\ur_servertest\\projectminiwow\\12steamsessions_aggrotest2\\intermediate\\build\\win64\\unrealeditor\\inc\\steamsessions\\uht\\c_aibehaviorcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
