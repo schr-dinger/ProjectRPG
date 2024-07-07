@@ -73,3 +73,37 @@ Monsters Perception gets them a Target to follow
 Making a Aggro system like wow
 made a small actor to damage the monsters
 and monster controller has a map to track aggro
+
+
+12.AggroTest2
+
+Making a Aggro system like wow ( based on damage * class multiplier)
+Monster Behavior Tree's BlackBoard's target is based on Aggro table
+
+
+13,14. SkillTest1, SkillTest2
+
+Making variation of Skill and building a system with a manager
+Had alot of discussiong about How to build the skill system.
+Objectifying, Moduleing, Independency, alot was on the table
+
+We decided to go for more Module Focused system.
+
+
+15. Reboot
+
+After alot of discussion, we decided to drop multiplayer, and make the game SinglePlayer Game
+I was highly against it, spent alot of time building a listen server and making a multiplayer system but this was a team project.
+All the RPC s have been removed and changed major parts of controller.
+
+
+16. Boss Skill Test
+
+Making a Behavior Tree for the boss and it's skills.
+It was based on the skill system we built
+
+
+19. Finished Without Network
+
+After we were done, I tried to turn it back to multiplayer but decided to leave the project as is for it is not mine alone.
+Hope next time we can build a multiplayer game with confidence
