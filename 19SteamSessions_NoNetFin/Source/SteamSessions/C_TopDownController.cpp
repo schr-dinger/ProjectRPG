@@ -668,25 +668,24 @@ void AC_TopDownController::SetUpdateUI(FString levelS)
 	{
 		if (selectedCharacter == Tank)
 		{
-			MiniRender = LoadObject<UTexture>(nullptr, TEXT("/Game/TopDown/TestM/MiniMapT1"));
+			SetRenderT = P1Render;
 		}
 		else if (selectedCharacter == DPS)
 		{
-			MiniRender = LoadObject<UTexture>(nullptr, TEXT("/Game/TopDown/TestM/MiniMapT2"));
+			SetRenderT = P2Render;
 		}
 		else if (selectedCharacter == Heal)
 		{
-			MiniRender = LoadObject<UTexture>(nullptr, TEXT("/Game/TopDown/TestM/MiniMapT3"));
+			SetRenderT = P3Render;
 		}
 
 
-		UMaterial* testMda2 = LoadObject<UMaterial>(nullptr, TEXT("/Game/TopDown/TestM/MinimapTest"));
-		//testMda2->SetTextureParameterValueEditorOnly("PlayerSel", MiniRender);
+		
 
-		UMaterialInstanceDynamic* MiniM = UMaterialInstanceDynamic::Create(testMda2, this);
-		MiniM->SetTextureParameterValue("PlayerSel", MiniRender);
+		
+		MiniRender->SetTextureParameterValueEditorOnly("PlayerSel", SetRenderT);
 
-		PMain_UI->SetMiniMapI(MiniM);
+		PMain_UI->SetMiniMap(MiniRender);
 
 	}
 

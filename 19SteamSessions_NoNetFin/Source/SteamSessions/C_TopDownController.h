@@ -157,10 +157,24 @@ public:
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<UUserWidget> PMain_UIClass;
 
-	UTexture* MiniRender;
+	UTexture* SetRenderT;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UMaterial* SetOutM;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UMaterial* MiniRender;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UTexture* P1Render;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UTexture* P2Render;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UTexture* P3Render;
+
+
 protected:
 	/** True if the controlled character should navigate to the mouse cursor. */
 	uint32 bMoveToMouseCursor : 1;
